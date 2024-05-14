@@ -10,7 +10,7 @@ document.getElementById('password-form').addEventListener('submit', async (event
   
       if (passwords.includes(password)) {
         // Redirect to the next page
-        window.location.href = 'http://httpforever.com/';
+        window.location.href = 'https://woltar.net/';
       } else {
         // Incorrect password
         response.textContent = 'Mot de passe incorrect.';
